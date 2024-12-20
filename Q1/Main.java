@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         // SimpleCalculator instens
         SimpleCalculator calculator = new SimpleCalculator();
-        final int num1 = 10, num2 = 0;
+        final int num1 = 10, num2 = 5;
         System.out.printf("Addition: %d \n", calculator.add(num1, num2));
         System.out.printf("Subtraction: %d \n", calculator.subtract(num1, num2));
         System.out.printf("Multiplication: %d \n", calculator.multiply(num1, num2));

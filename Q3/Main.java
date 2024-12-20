@@ -1,12 +1,18 @@
 package Q3;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
         final int[] numbers = { 3, 5, 7, 2, 8 };
+        System.out.println("numbers: " + Arrays.toString(numbers));
 
         if (HelperFunctions.isDistinct(numbers))
-            System.out.println(findSecondLargest(numbers));
+            System.out.println("Second Largest Number: " + findSecondLargest(numbers));
+        else
+            System.out.println("Error: at least two distinct numbers.");
+
     }
 
     // find largest logic

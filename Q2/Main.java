@@ -2,7 +2,7 @@ package Q2;
 
 class Main {
     public static void main(String[] args) {
-        System.out.println(reverseString("hello").trim());
+        System.out.println("Reverse String: " + reverseString("hello").trim());
 
     }
 
